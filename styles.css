@@ -1,0 +1,510 @@
+.header{
+    display: flex;
+    direction: row;
+    height: 90px;
+    background-color:white;
+    width: 100%;
+}
+.right-section
+{
+    font-size: 15px;
+    padding: 40px ;
+    font-family: 'apercu-bold','Open Sans', sans-serif;
+    color: #002855;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding-top: 15px;
+    cursor: pointer;
+    
+}
+.sub-header{
+    margin-left: 20px;
+    
+
+}
+.sub-header1{
+    margin-left:20px;
+    margin-right: 45px;
+    
+}
+.sub-header:hover{
+    color:peachpuff
+}
+.Quaker_Logo_Header{
+    height: 70px;
+    padding-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.third-section{
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    
+    
+
+}
+.login-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    cursor: pointer;
+    color: #636466!important;
+
+
+}
+.login-1:hover{
+    color:  #337ab7;;
+}
+
+
+
+
+.signinup-text{
+    
+    display: flex;
+    flex-direction: row;
+    height: 15px;
+    margin-bottom:34px;
+    font-size: small;
+    width: 95px;
+       
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+    color: #636466!important;
+    
+    
+   
+}
+.sign:hover{
+    color: #337ab7;
+}
+.sign{
+    margin-top: 3px
+}
+.icons{
+    display: flux;
+  
+    margin-top: -10px;
+    
+    
+    
+}
+.icons:hover{
+    color: #337ab7;
+}
+
+.text2{
+    font-size: small;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+    color: #636466!important;
+    margin-top: 0;
+}
+.text2:hover{
+    color: #337ab7;
+}
+
+.final-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.search{
+    margin-left: 30px;
+    cursor: pointer;
+   
+}
+.search-text{
+    margin-left: 28px;
+    cursor: pointer;
+    margin-bottom:38px;
+    margin-top: 0;
+    color: #002857!important;
+    font-size: small;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;; ;
+
+}
+.icon1{
+    transition: 0.2s;
+    color: grey;
+}
+
+
+.icon1:hover{
+    color: #337ab7;
+}
+.img-first{
+    width: 100%;
+    border: 1px solid;
+    padding-top: 2px;
+    box-shadow: 0px 0px 10px grey inset;
+    
+}
+.second-conte{
+    width: 100%;
+    height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    background-image: url("thumbnails/puffed-granola-new-homepage-tile.jpg");
+   margin-bottom: 1px; 
+  padding-top: 10px;
+  box-shadow: 0 0px 10px grey inset;
+}
+.threedot{
+    width: 100%;
+   height: 100%;
+    margin-left: 550px;
+    display: inline-block;
+    margin-top: 450px;
+    
+}
+.threeicons{
+    height: 200px;
+    width: 200px;
+
+   
+   
+}
+.easy-font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+   
+    color: #002855;
+   padding-top: 20px;
+    margin-bottom: 10px;
+    height: 120px;
+    width: 100%;
+    
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: 500;
+    line-height: 1.1;
+    
+
+}
+.pic{
+    height: 300px;
+    width: 100%;
+   
+    display: flex;
+    margin-top: -38px;
+
+}
+.l-arrow{
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-right: 20px;
+    
+}
+.r-arrow{
+    margin-left: -25px;
+    margin-top: 100px;
+    margin-right: 20px;
+
+}
+.images{
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    margin-top: -3px;
+    gap: 23px 23px 23px 23px;
+   
+    
+
+}
+.img-main{
+    width: 240px;
+    height: 240px;
+    
+    
+ 
+}
+.text-discription{
+    display: grid;
+    grid-template-columns:270px 270px 270px 270px ;
+    height: 200px;
+    
+    margin-left: 100px;
+    margin-top: -45px;
+}
+.text-d{
+    font-family: 'apercu-regular','PT Sans', sans-serif;
+    font-size: 1.5vw;
+    text-align: left;
+    margin: 1vw 0 0;
+    color: #002855;
+}
+.dots-div{
+display:flex;
+height: 50px;
+
+justify-content: center;
+margin-top: -110px;
+
+
+}
+.dot1{
+    height: fit-content;
+    width: 55px;
+    margin-right: -18px;
+   
+}
+.dot1:hover{
+    color: #002857;
+    }
+.dot2{
+    height: fit-content;
+    width: 55px;
+    margin-right: -20px;
+   
+}
+.mid-text{
+    height: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.text3{
+    font-family:  'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    line-height: 1.75vw;
+    margin: 4vw auto 2vw;
+    color: #002855;
+    margin-top: -7px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.9;
+}
+.button-sec{
+    background: #002855;
+    border-color: #002855;
+    color: #fff !important;
+    font-size: 1.05vw;
+    font-weight: bold;
+    line-height: 1.5vw;
+    padding: 0.85vw 3.75vw;
+    border-radius: 8px;
+    font-family: 'apercu-bold','Open Sans', sans-serif;
+  
+    text-align: center;
+    width: 280px;
+
+    
+
+}
+.butn{
+   position: absolute;
+   margin-left: 430px;
+   margin-top: 100px;
+}
+.photos{
+    
+    
+    height: 400px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    margin-top: 80px;
+    gap: 30px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.grid1{
+background-image: url(thumbnails/cookies.png);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  position: relative;
+
+    
+  
+}
+.grid2{
+    background-image: url(thumbnails/jar.png);
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size:contain;
+      position: relative;  
+}
+.area-white{
+    height: 220px;
+    width: 400px;
+    background-color: white;
+    opacity: 0.9;
+    margin-top: 139px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.cookie-text{
+    font-family: "Archer A", "Archer B";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2vw;
+    color: #474747;
+    margin-top: 2%;
+    line-height: 3vw;
+    margin-bottom: 0;
+    text-align: center;
+    width: 250px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-left: 65px;
+}
+.cookie-text1{
+    font-family: "Archer A", "Archer B";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2vw;
+    color: #474747;
+    margin-top: 2%;
+    line-height: 3vw;
+    margin-bottom: 0;
+    text-align: center;
+    width: 350px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+.hr1{
+    width: 105px;
+    border-top: 2px solid;
+}
+.cookie-text2{
+    font-family: "Archer A", "Archer B";
+    font-style: normal;
+    font-weight:bold;
+    font-size: 14px;
+    color: #474747;
+    margin-top: 2%;
+    height: 100px;
+   
+    margin-bottom: 25px;
+    text-align: center;
+    width: 150px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-left:120px;
+
+}
+.arrowimg{
+    height: 18px;
+    
+    position: absolute;
+ 
+    
+}
+.arrowimg2{
+    height: 18px;
+    position: absolute;
+  
+ 
+    
+}
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color:#002855;
+    margin-top: 150px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+
+    
+
+}
+.rightfooter{
+    display: flux;
+  
+    justify-content: space-around;
+    width: 500px;
+
+}
+.popular{
+    height: 250px;
+   
+    margin-left:70px ;
+    margin-top: 40px;
+
+}
+.popu{
+    color: #fff;
+    font-size: 11pt;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Archer A", "Archer B";
+    font-style: normal;
+    font-weight: 700;
+}
+.rec{
+    color: #fff;
+    font-size: 11pt;
+    font-family: "Archer A", "Archer B";
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 2em;
+
+}
+.more{
+    height: 250px;
+    
+    margin-left:250px ;
+    margin-top: -262px;
+    
+
+}
+.foot-image{
+    width: 100%;
+    max-width: 213px;
+    margin-top: 35px;
+    margin-left: 20px;
+
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    
+    height: 350px;
+    width: 300px;
+    margin-left: 215px;
+    
+    
+}
+.finaltext{
+    font-size: 15pt;
+    font-family: "Archer A", "Archer B";
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 30px;
+    top: -5px;
+    right: 10px;
+    font-family: 'apercu-bold','Open Sans', sans-serif !important;
+    font-size: 1.4vw;
+}
+
+.finals{
+height:auto;
+width: 100%;
+margin-top: 30px;
+}
